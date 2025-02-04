@@ -1,0 +1,11 @@
+@import './variables.css';
+
+.footer {
+    height: 10vh;
+    background-color: var(--seco-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+}
