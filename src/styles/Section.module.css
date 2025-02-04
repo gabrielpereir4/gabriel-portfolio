@@ -81,12 +81,20 @@
 }
 
 /* 🔹 Containers auxiliares */
-.smallContainer, .spacedContainer {
+.smallContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
+}
+
+.spacedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 /* 🔹 Alinhamento centralizado para textos */
@@ -134,8 +142,14 @@
 
 /* 🔹 Ajustando para telas menores */
 @media (max-width: 768px) {
+    .section {
+        min-height: 100vh;
+        height: auto;
+    }
     .profile {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 20px;
     }
 
@@ -150,8 +164,8 @@
     }
 
     .profileLinks {
-        width: 80%;
-        flex-direction: column;
+        width: 100%;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -159,4 +173,52 @@
         width: 40px;
         height: 40px;
     }
+
+    .spacedContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 80%;
+    }
+
+    /* 🔹 Containers auxiliares */
+    .smallContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        flex-grow: 0.5;
+
+    }
+
+    .projectTitle{
+        margin-top: 100px;
+    }
+
+    .alignedText {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 16px;
+    }
+    
+    /* 🔹 Melhorando listas */
+    .descriptionList {
+        text-align: center;
+        list-style-type: circle;
+        font-size: 12px;
+        gap: 10px;
+    }
+
+    .projectContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px 5%;
+    }
+
 }

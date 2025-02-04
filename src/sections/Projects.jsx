@@ -6,7 +6,7 @@ function Projects(){
     return (
         <section id="projects" className={styles.section}>
             <div className={styles.spacedContainer}>
-                <div className={styles.smallContainer}> 
+                <div className={styles.projectTitle}> 
                     <h3>Projects</h3>
                 </div>
                 
