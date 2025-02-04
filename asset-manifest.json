@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NOME_DO_REPOSITORIO/static/css/main.956e062e.css",
-    "main.js": "/NOME_DO_REPOSITORIO/static/js/main.2d5f5c55.js",
-    "static/media/profile.jpg": "/NOME_DO_REPOSITORIO/static/media/profile.de82da80638777430897.jpg",
-    "index.html": "/NOME_DO_REPOSITORIO/index.html",
-    "main.956e062e.css.map": "/NOME_DO_REPOSITORIO/static/css/main.956e062e.css.map",
-    "main.2d5f5c55.js.map": "/NOME_DO_REPOSITORIO/static/js/main.2d5f5c55.js.map"
+    "main.css": "/gabrielpereir4/gabriel-portfolio/static/css/main.327da3c8.css",
+    "main.js": "/gabrielpereir4/gabriel-portfolio/static/js/main.2d5f5c55.js",
+    "static/media/profile.jpg": "/gabrielpereir4/gabriel-portfolio/static/media/profile.de82da80638777430897.jpg",
+    "index.html": "/gabrielpereir4/gabriel-portfolio/index.html",
+    "main.327da3c8.css.map": "/gabrielpereir4/gabriel-portfolio/static/css/main.327da3c8.css.map",
+    "main.2d5f5c55.js.map": "/gabrielpereir4/gabriel-portfolio/static/js/main.2d5f5c55.js.map"
   },
   "entrypoints": [
-    "static/css/main.956e062e.css",
+    "static/css/main.327da3c8.css",
     "static/js/main.2d5f5c55.js"
   ]
 }
