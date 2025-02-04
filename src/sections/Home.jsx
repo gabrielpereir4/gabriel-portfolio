@@ -20,13 +20,13 @@ const Home = () => {
                     </div>
                     <div className={styles.profileLinks}>
                         <a className={styles.icon} href="https://github.com/gabrielpereir4" target="_blank" rel="noopener noreferrer">
-                            <img src="/assets/github.png" alt="GitHub" className={styles.icon} />
+                            <img src={`${process.env.PUBLIC_URL}/assets/github.png`} alt="GitHub" className={styles.icon} />
                         </a>
                         <a className={styles.icon} href="http://linkedin.com/in/gabrielpereir4" target="_blank" rel="noopener noreferrer">
-                            <img src="/assets/linkedin.png" alt="Linkedin" className={styles.icon} />
+                            <img src={`${process.env.PUBLIC_URL}/assets/linkedin.png`} alt="Linkedin" className={styles.icon} />
                         </a>
                         <a className={styles.icon} href="http://lattes.cnpq.br/9637647215636047" target="_blank" rel="noopener noreferrer">
-                            <img src="/assets/lattes.png" alt="Lattes" className={styles.icon} />
+                            <img src={`${process.env.PUBLIC_URL}/assets/lattes.png`} alt="Lattes" className={styles.icon} />
                         </a>
                     </div>
                 </div>

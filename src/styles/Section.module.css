@@ -1,3 +1,5 @@
+@import './variables.css';
+
 .section {
     height: 100vh;
     background-color: var(--tert-color);
@@ -5,127 +7,156 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
+    font-size: 28px; /* Ajustado para melhor legibilidade */
 }
 
-
+/* 🔹 Melhorando responsividade do perfil */
 .profile {
-    width: 100%;
-    height: 50%;
+    width: 90%;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
+    flex-wrap: wrap; /* Permite que os elementos se ajustem em telas menores */
 }
 
+/* 🔹 Melhorando a imagem do perfil */
 .profilePicture {
     background-color: var(--prim-color);
-    width: 500px;
-    height: 500px;
+    width: 250px; /* Ajustado para um tamanho mais responsivo */
+    height: 250px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid var(--seco-color);
-    background-image: url(../../public/assets/profile.jpg);
-    background-size: 100%;
+    background-image: url("../../public/assets/profile.jpg");; 
+    background-size: cover;
 }
 
+/* 🔹 Melhorando a descrição */
 .profileDescription {
-    max-width: 50%; /* Limitando a largura do texto */
-    text-align: justify; /* Centralizando o texto */
+    max-width: 60%;
+    text-align: justify;
+    font-size: 18px;
 }
 
 .profileDescriptionText {
-    width: 100%; /* Permitindo que o texto se ajuste melhor */
+    width: 100%;
 }
 
+/* 🔹 Melhorando responsividade dos links */
 .profileLinks {
-    margin-top: 10%;
+    margin-top: 5%;
     width: 50%;
     background: var(--seco-color);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0px 4px 10px #1a1a1a;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
-    text-align: left; /* Mantém tudo alinhado à esquerda */
+    gap: 15px;
 }
 
+/* 🔹 Ajustando tamanho dos ícones */
 .icon {
-    width: 60px; /* Define o tamanho dos ícones */
-    height: 60px;
+    width: 30px;
+    height: 30px;
     transition: transform 0.2s ease-in-out;
 }
 
 .icon:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.1);
 }
 
+/* 🔹 Melhorando disposição dos projetos */
 .projectContainer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    gap: 20px;
+    margin: 20px auto;
 }
 
-.smallContainer {
+/* 🔹 Containers auxiliares */
+.smallContainer, .spacedContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
 }
 
-.spacedContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-}
-
-.alignedText{
+/* 🔹 Alinhamento centralizado para textos */
+.alignedText {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    font-size: 18px;
 }
 
+/* 🔹 Melhorando listas */
 .descriptionList {
     text-align: center;
     list-style-type: circle;
-    font-size: 22px;
+    font-size: 14px;
     gap: 10px;
 }
 
-
+/* 🔹 Ajustando botão de download */
 .download a {
     text-decoration: none;
     color: inherit;
-    font-size: 32px;
+    font-size: 18px;
     font-weight: bold;
-    position: relative; /* Permite o uso do ::after corretamente */
-    padding: 10px 15px; /* Mantém espaçamento fixo */
+    position: relative;
+    padding: 10px 15px;
 }
-
 
 .download a:after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -1.5px; /* Ajusta a distância do sublinhado */
+    bottom: -1.5px;
     width: 100%;
-    height: 3px; /* Define a espessura do sublinhado */
+    height: 1.5px;
     background-color: white;
-    transform: scaleX(0); /* Inicialmente invisível */
+    transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
 
 .download a:hover::after {
-    transform: scaleX(1); /* Exibe o sublinhado sem alterar o layout */
+    transform: scaleX(1);
+}
+
+/* 🔹 Ajustando para telas menores */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profilePicture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .profileDescription {
+        max-width: 80%;
+        font-size: 16px;
+    }
+
+    .profileLinks {
+        width: 80%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
 }

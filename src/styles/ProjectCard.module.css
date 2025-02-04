@@ -1,60 +1,83 @@
 .card {
-    width: 400px;
+    width: 250px;
+    height: 125px;
     background: var(--seco-color);
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0px 4px 10px #1a1a1a;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    text-align: left; /* Mantém tudo alinhado à esquerda */
+    text-align: left;
 }
 
+/* 🔹 Ajustando header */
 .header {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+/* 🔹 Melhorando tamanho do ícone */
 .icon {
-    width: 60px; /* Ajuste conforme necessário */
-    height: 60px;
-    object-fit: contain; /* Mantém a proporção da imagem */
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
+/* 🔹 Melhorando títulos */
 .title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: bold;
+    word-wrap: break-word;
 }
 
+/* 🔹 Ajustando links */
 .title a {
     text-decoration: none;
     color: inherit;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
-    position: relative; /* Permite o uso do ::after corretamente */
-    padding: 10px 15px; /* Mantém espaçamento fixo */
+    position: relative;
+    padding: 5px;
 }
 
-
-.title a:after {
+/* 🔹 Criando sublinhado apenas no hover */
+.title a::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -1.5px; /* Ajusta a distância do sublinhado */
+    bottom: -3px;
     width: 100%;
-    height: 3px; /* Define a espessura do sublinhado */
+    height: 1.5px;
     background-color: white;
-    transform: scaleX(0); /* Inicialmente invisível */
+    transform: scaleX(0);
     transition: transform 0.3s ease-in-out;
 }
 
 .title a:hover::after {
-    transform: scaleX(1); /* Exibe o sublinhado sem alterar o layout */
+    transform: scaleX(1);
 }
 
-
+/* 🔹 Melhorando descrição */
 .description {
-    font-size: 20px;
-    text-align: justify; /* Garante que o texto seja justificado */
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5; /* Melhorando leitura */
+}
+
+/* 🔹 Tornando os cards mais responsivos */
+@media (max-width: 768px) {
+    .card {
+        min-width: 180px;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
 }

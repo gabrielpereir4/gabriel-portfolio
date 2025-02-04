@@ -10,6 +10,7 @@
 	color: white;
 }
 
+
 a {
 	text-decoration: none; /* Remove sublinhado */
 	color: inherit; /* Faz o link herdar a cor do elemento pai */

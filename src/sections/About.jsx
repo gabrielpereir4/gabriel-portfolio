@@ -6,8 +6,8 @@ function About(){
         <section id="about" className={styles.section}>
             <div className={styles.spacedContainer}>
                 <div className={styles.smallContainer}>
-                    <h1>About Me</h1>
-                    <h2>My experience:</h2>
+                    <h3>About Me</h3>
+                    <h4>My experience:</h4>
                 </div>
                 
                 <ul className={styles.alignedText}>
@@ -31,13 +31,13 @@ function About(){
                     </li>
                 </ul>
 
-                <h2>My education:</h2>
+                <h3>My education:</h3>
                 <ul className={styles.alignedText}>
                     <li>UNICAMP - Systems' Analysis and Development (2021-2024)</li>
                     <li>USP - Master's in Computer Science (2025-2026)</li>
                 </ul>
                 <div className={styles.download}>
-                    <a  href="/assets/CV5_Gabriel_eng.pdf" download>
+                    <a  href={`${process.env.PUBLIC_URL}/assets/CV5_Gabriel_eng.pdf`} download>
                     📄 Download my CV here!
                     </a>
                 </div>
