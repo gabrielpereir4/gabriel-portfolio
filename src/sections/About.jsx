@@ -37,7 +37,7 @@ function About(){
                     <li>USP - Master's in Computer Science (2025-2026)</li>
                 </ul>
                 <div className={styles.download}>
-                    <a  href={`${process.env.PUBLIC_URL}/assets/CV5_Gabriel_eng.pdf`} download>
+                    <a  href={`${process.env.PUBLIC_URL}/assets/CV6_Gabriel_eng.pdf`} download>
                     📄 Download my CV here!
                     </a>
                 </div>
