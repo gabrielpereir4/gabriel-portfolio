@@ -16,12 +16,14 @@ function Projects(){
                         title="QR Code Generator"
                         githubLink={"https://github.com/gabrielpereir4/qrcodegenerator"}
                         description="Simple QRCode generator developed in Python, with a simple TKinter GUI."
-                    />  
+                        accessLink={"https://drive.google.com/uc?export=download&id=19ZXN2K32MCAwSUbQ4jrn9c9LCxNvZ9gA"}
+                    />
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}/assets/java.png`}
                         title="Currency Exchange"
                         githubLink={"https://github.com/gabrielpereir4/currencyexchange"}
                         description="Currency Exchange CLI app built entirely in Java using ExchangeRate API."
+                        accessLink={"https://drive.google.com/uc?export=download&id=1z8VDPThd8hTxf5zUctGvNq3KAjNBI7Jj"}
                     />   
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}/assets/clang.png`}
@@ -33,7 +35,8 @@ function Projects(){
                         iconSrc={`${process.env.PUBLIC_URL}/assets/java.png`}
                         title="To Do List"
                         githubLink={"https://github.com/gabrielpereir4/todolist"}
-                        description="Simple To-Do List CLI Application built in Java with SQLite." 
+                        description="Simple To-Do List CLI Application built in Java with SQLite."
+                        accessLink={"https://drive.google.com/uc?export=download&id=1yMo4AlJ0Aausx-tHU0wGk5vu_zQB3hH4"} 
                     />
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}//assets/python.png`}
@@ -51,7 +54,7 @@ function Projects(){
                         iconSrc={`${process.env.PUBLIC_URL}//assets/python.png`}
                         title="Whatsapp Bot"
                         githubLink={"https://github.com/gabrielpereir4/WhatsappMarketingRPA"}
-                        description="Freelance Whatsapp Marketing Automation project using Python."
+                        description="Freelance Whatsapp Marketing Automation project using Python with TKinter GUI."
                     />
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}//assets/python.png`}
@@ -64,12 +67,19 @@ function Projects(){
                         title="Pong"
                         githubLink={"https://github.com/gabrielpereir4/pong"}
                         description="Clone of the classic Pong game made in Godot."
+                        accessLink={"https://drive.google.com/uc?export=download&id=1-AxBtXryz5WZ6YiSzfbJHWVq23QAbph9"}
                     />
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}/assets/java.png`}
                         title="Parking Lot"
                         githubLink={"https://github.com/gabrielpereir4/estacionamento"}
                         description="Parking Lot system built in Java, with Swing GUI and MySQL database."
+                    />
+                    <ProjectCard
+                        iconSrc={`${process.env.PUBLIC_URL}/assets/python.png`}
+                        title="Pending Signatures Bot"
+                        githubLink={""}
+                        description="Freelance project using Python and Selenium for automating pending signature alerts. The bot sends alerts to both clients and employees with info on pending and cancelled signatures."
                     />
                 </div>
             </div>
