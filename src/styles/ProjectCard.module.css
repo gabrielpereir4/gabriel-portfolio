@@ -96,14 +96,15 @@
 @media (max-width: 768px) {
     .card {
         min-width: 50%;
-        max-width: 80%;
+        max-width: 95%;
+        gap: 2.5px;
     }
 
     .title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .description {
-        font-size: 14px;
+        font-size: 12px;
     }
 }

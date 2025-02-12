@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     font-size: 28px; /* Ajustado para melhor legibilidade */
+    padding-top: 35px;
 }
 
 /* 🔹 Melhorando responsividade do perfil */
@@ -145,6 +146,7 @@
     .section {
         min-height: 100vh;
         height: auto;
+        padding-top: 70px;
     }
     .profile {
         flex-direction: column;
@@ -192,10 +194,6 @@
         gap: 15px;
         flex-grow: 0.5;
 
-    }
-
-    .projectTitle{
-        margin-top: 100px;
     }
 
     .alignedText {
