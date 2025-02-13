@@ -67,7 +67,7 @@ function Projects(){
                         title="Pong"
                         githubLink={"https://github.com/gabrielpereir4/pong"}
                         description="Clone of the classic Pong game made in Godot."
-                        accessLink={"https://drive.google.com/uc?export=download&id=1-AxBtXryz5WZ6YiSzfbJHWVq23QAbph9"}
+                        accessLink={"https://drive.google.com/uc?export=download&id=1Uy0Aeye-91YJnJApe9Y5Ih9F9bHmlAvN"}
                     />
                     <ProjectCard
                         iconSrc={`${process.env.PUBLIC_URL}/assets/java.png`}
