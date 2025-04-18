@@ -26,7 +26,13 @@ function About(){
                     <li>Freelancer (2023-now)
                         <ul className={styles.descriptionList}>
                             <li>Developer of freelance projects, involving RPA, static websites and also desktop apps.</li>
-                            <li>Worked with Python, Java, and React.</li>
+                            <li>Worked with Python, Java, and React</li>
+                        </ul>
+                    </li>
+                    <li>RPA Consultant/Developer (April 2025-now)
+                        <ul className={styles.descriptionList}>
+                            <li>Developer of BPMN and BPMS workflows, RPA systems, and JS and Java integrations/scripts.</li>
+                            <li>Lecom, JavaScript, Java</li>
                         </ul>
                     </li>
                 </ul>
