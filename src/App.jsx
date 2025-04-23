@@ -4,6 +4,7 @@ import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import USPSoftLivre from './sections/USPSoftLivre';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <USPSoftLivre />
         <Footer />
     </div>
 );
