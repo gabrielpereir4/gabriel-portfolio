@@ -6,7 +6,7 @@ function Experience(){
         <section id="experience" className={styles.section}>
             <div className={styles.spacedContainer}>
                 <div className={styles.smallContainer}>
-                    <h3>Professional Experiencee</h3>
+                    <h3>Professional Experience</h3>
                     <h4>My experience:</h4>
                 </div>
                 
@@ -35,7 +35,7 @@ function Experience(){
                             <li className={styles.techdescription}>JavaScript, Java</li>
                         </ul>
                     </li>
-                    <li>R&D Software Developer (April 2025-June 2025)
+                    <li>R&D Software Developer (June 2025-now)
                         <ul className={styles.descriptionList}>
                             <li>Developer of features, fixes and documentation/tests in Java, C and Python for medical devices.</li>
                             <li className={styles.techdescription}>Java, C, Python, Linux, Git, Docker, Jenkins</li>
