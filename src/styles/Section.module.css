@@ -11,6 +11,10 @@
     padding-top: 35px;
 }
 
+.techdescription {
+    font-style: italic
+}
+
 /* 🔹 Melhorando responsividade do perfil */
 .profile {
     width: 90%;

@@ -11,7 +11,7 @@ function USPSoftLivre() {
                 <ul className={styles.alignedText}>
                     <li>
                         <a 
-                            href="/posts/2025-03-26-Creating an environment for kernel development.md" 
+                            href="https://github.com/gabrielpereir4/gabriel-portfolio/blob/main/public/posts/2025-03-26-Creating%20an%20environment%20for%20kernel%20development.md" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
@@ -20,7 +20,7 @@ function USPSoftLivre() {
                     </li>
                     <li>
                         <a 
-                            href="/posts/2025-04-12-refactoring-common-hardware-initialization-in-VEML603x-drivers-(veml6030-&-veml6035).md" 
+                            href="https://github.com/gabrielpereir4/gabriel-portfolio/blob/main/public/posts/2025-04-12-refactoring-common-hardware-initialization-in-VEML603x-drivers-(veml6030-%26-veml6035).md" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
@@ -29,7 +29,7 @@ function USPSoftLivre() {
                     </li>
                     <li>
                         <a 
-                            href="/posts/2025-04-12-refactoring-inv_icm42600_core.md" 
+                            href="https://github.com/gabrielpereir4/gabriel-portfolio/blob/main/public/posts/2025-04-12-refactoring-inv_icm42600_core.md" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >
@@ -38,7 +38,7 @@ function USPSoftLivre() {
                     </li>
                     <li>
                         <a 
-                            href="/posts/2025-04-14-send-first-patch.md" 
+                            href="https://github.com/gabrielpereir4/gabriel-portfolio/blob/main/public/posts/2025-04-14-send-first-patch.md" 
                             target="_blank" 
                             rel="noopener noreferrer"
                         >

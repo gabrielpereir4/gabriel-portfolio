@@ -1,5 +1,7 @@
 import Home from './sections/Home';
 import About from './sections/About';
+import Experience from './sections/Experience';
+import Education from './sections/Education';
 import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import Navbar from './components/Navbar';
@@ -11,10 +13,10 @@ function App() {
     <div>
         <Navbar />
         <Home />
-        <About />
+        <Experience />
+        <Education />
         <Projects />
         <Contact />
-        <USPSoftLivre />
         <Footer />
     </div>
 );
