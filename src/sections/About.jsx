@@ -14,25 +14,31 @@ function About(){
                     <li>RPA Developer (2022-2023)
                         <ul className={styles.descriptionList}>
                             <li>Developed RPA solutions for automating business processes</li>
-                            <li>Worked with a low-code platform and HTML, CSS and JS stacks</li>
+                            <li>Low-code RPA, HTML, CSS, JavaScript</li>
                         </ul>
                     </li>
                     <li>Undergraduate Researcher (2024)
                         <ul className={styles.descriptionList}>
                             <li>Developed a web-based visualization tool for oil reserves exploration processes.</li>
-                            <li>Worked with Python (Plotly and Dash)</li>
+                            <li>Python (Plotly and Dash)</li>
                         </ul>
                     </li>
                     <li>Freelancer (2023-now)
                         <ul className={styles.descriptionList}>
                             <li>Developer of freelance projects, involving RPA, static websites and also desktop apps.</li>
-                            <li>Worked with Python, Java, and React</li>
+                            <li>Python, Java, and React</li>
                         </ul>
                     </li>
-                    <li>RPA Consultant/Developer (April 2025-now)
+                    <li>RPA Consultant/Developer (April 2025-June 2025)
                         <ul className={styles.descriptionList}>
                             <li>Developer of BPMN and BPMS workflows, RPA systems, and JS and Java integrations/scripts.</li>
-                            <li>Lecom, JavaScript, Java</li>
+                            <li>JavaScript, Java</li>
+                        </ul>
+                    </li>
+                    <li>R&D Software Developer (April 2025-June 2025)
+                        <ul className={styles.descriptionList}>
+                            <li>Developer of features, fixes and documentation/tests in Java, C and Python for medical devices.</li>
+                            <li>Java, C, Python, Linux, Git, Docker, Jenkins</li>
                         </ul>
                     </li>
                 </ul>
