@@ -12,7 +12,7 @@ function Education(){
 
                 <ul className={styles.alignedText}>
                     <li>UNICAMP - Systems' Analysis and Development (2021-2024)</li>
-                    <li>USP - Master's in Computer Science (Approved 2025))</li>
+                    <li>USP - Master's in Computer Science (Approved 2025)</li>
                 </ul>
                 <div className={styles.download}>
                     <a  href={`${process.env.PUBLIC_URL}/assets/CV8_Gabriel_eng.pdf`} download>
